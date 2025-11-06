@@ -34,7 +34,7 @@ export const Navbar = () => {
   }
 
   return (
-    <header className="text-white fixed top-0 left-0 right-0 z-20 bg-black/90">
+    <header className="text-white fixed top-0 left-0 right-0 z-20 bg-black/10 border-b-2 border-amber-400">
       <div className="max-w-7xl mx-auto">
         <div className="flex justify-between items-center p-5 mx-auto sm:px-10">
           <a href="/" className="text-neutral-400 font-bold text-xl hover:text-white transition-colors"><span className="text-2xl">MEDHA</span> .25</a>

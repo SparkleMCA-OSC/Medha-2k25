@@ -1,4 +1,4 @@
-import { Navbar } from "./Components/Navbar"
+import { Navbar } from "./components/Navbar"
 import { Hero } from "./sections/Hero"
 import { About } from "./sections/About"
 import { Events } from "./sections/Events"
@@ -8,15 +8,17 @@ import { Contact } from "./sections/Contact"
 
 function App() {
   return (
-    <main className="max-w-7xl mx-auto">
-      <Navbar />
+    <div className="relative">
       <Hero />
-      <About />
-      <Events />
-      <Glimpse />
-      <Rules />
-      <Contact />
-    </main>
+      <main className="max-w-7xl mx-auto relative z-10">
+        <Navbar />
+        <About />
+        <Events />
+        <Glimpse />
+        <Rules />
+        <Contact />
+      </main>
+    </div>
   )
 }
 
