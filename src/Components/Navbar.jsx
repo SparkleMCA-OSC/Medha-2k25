@@ -36,7 +36,7 @@ const NavItems = ({ isMobile = false }) => {
 
       {/* Mobile Register Button */}
       {isMobile && (
-        <button className="w-full bg-linear-to-br from-[#5C6691] via-50% to-[#E8EDFF] text-gray-900 text-2xl font-semibold px-6 py-3 rounded-lg transition-all duration-300 mt-4">
+        <button className="w-full bg-linear-to-br from-[#5C6691] via-50% to-[#E8EDFF] text-gray-900 text-xl font-semibold px-6 py-3 rounded-lg transition-all duration-300 mt-4">
           Register
         </button>
       )}
